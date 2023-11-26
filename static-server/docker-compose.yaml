@@ -5,6 +5,6 @@ services:
     image: nginx:latest
     volumes:
       - ./index.html:/usr/share/nginx/html/index.html
-      - ./capy.jpg:/usr/share/nginx/html/capy.jpg
+      - ./penguin.jpg:/usr/share/nginx/html/penguin.jpg
     ports:
       - "888:80"
