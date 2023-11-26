@@ -1,0 +1,119 @@
+#footer {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    background: dimgrey;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    background: dimgrey;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    background: #E0E0E0;
+}
+
+.form_container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form_name_container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 35px;
+}
+
+.form_input {
+    border-radius:10px;
+    border: 1px solid grey;
+    margin: 3px auto;
+    padding: 10px;
+    width: 80%;
+    display: block;
+}
+
+.form_input:hover {
+    border: 1px solid black;
+}
+
+.form_textarea {
+    resize: none;
+    height: 10%;
+}
+
+#goods-label {
+    font-size: 25px;
+}
+
+.form_select {
+    display: block;
+    overflow: auto;
+}
+
+.form_option {
+    color: dimgrey;
+}
+
+.form_button {
+    background: lightgray;
+}
+
+.form_button:hover {
+    background: darkgray;
+}
+
+#logout_container {
+    float: right;
+    width: 5%;
+    margin: auto;
+}
+
+#auth_form_container {
+    padding: 10%;
+}
+
+#sign-in-button {
+    width: 40%;
+    overflow: hidden;
+    float: left;
+    margin: 0 3px 0 10%;
+}
+
+#sign-up-button {
+    width: 39%;
+    overflow: hidden;
+    float: left;
+    margin: 0 3px 0 0;
+}
+
+#username_container {
+    float: left;
+    width: 10%;
+    padding: 10px 0 0 10px;
+    text-align: left;
+    font-family: inherit;
+    font-size: 20px;
+}
